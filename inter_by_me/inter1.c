@@ -2,7 +2,7 @@
 
 int	check(char *s, char c, int index)
 {
-	int i = 0;
+	int	i = 0;
 
 	while (i < index)
 	{
@@ -13,10 +13,10 @@ int	check(char *s, char c, int index)
 	return (0);
 }
 
-int main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
-	int i = 0;
-	int j = 0;
+	int	i;
+	int	j;
 
 	if (argc == 3)
 	{

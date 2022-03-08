@@ -1,10 +1,9 @@
 #include <unistd.h>
-#include <stdlib.h>
 
 static char	*joinnomalloc(char *s1, char *s2)
 {
 	char	*dest;
-	int	i;
+	int		i;
 
 	i = 0;
 	dest = s1;
@@ -18,8 +17,8 @@ static char	*joinnomalloc(char *s1, char *s2)
 
 int	main(int argc, char **argv)
 {
-	int	i;
-	int	j;
+	int		i;
+	int		j;
 	char	*dest;
 
 	if (argc == 3)

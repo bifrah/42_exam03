@@ -7,8 +7,9 @@ void	ft_putchar(char c)
 
 int	check(char *s, char c, int index)
 {
-	int i = 0;
+	int	i;
 
+	i = 0;
 	while (i < index)
 	{
 		if (s[i] == c)
@@ -20,8 +21,8 @@ int	check(char *s, char c, int index)
 
 int	main(int argc, char **argv)
 {
-	int i = 0;
-	int j = 0;
+	int	i;
+	int	j;
 
 	if (argc == 3)
 	{

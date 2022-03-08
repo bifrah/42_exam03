@@ -9,19 +9,19 @@ int	ft_check(char *str, char c, int index)
 {
 	int	i = 0;
 
-	while(i < index)
+	while (i < index)
 	{
 		if (str[i] == c)
 			return (1);
 		i++;
 	}
-	return(0);
+	return (0);
 }
 
 int	main(int argc, char **argv)
 {
-	int i = 0;
-	int j = 0;
+	int	i = 0;
+	int	j = 0;
 
 	if (argc == 3)
 	{
@@ -31,7 +31,7 @@ int	main(int argc, char **argv)
 			if (ft_check(argv[1], argv[1][i], i) == 0)
 			{
 				j = 0;
-				while(argv[2][j])
+				while (argv[2][j])
 				{
 					if (argv[2][j] == argv[1][i])
 					{

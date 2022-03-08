@@ -7,13 +7,14 @@ void	ft_putchar(char c)
 
 char	*joinme(char *s1, char *s2)
 {
-	int	i = 0;
+	int		i;
 	char	*dest;
 
+	i = 0;
 	dest = s1;
-	while(*s1)
+	while (*s1)
 		dest[i++] = *s1++;
-	while(*s2)
+	while (*s2)
 		dest[i++] = *s2++;
 	dest[i] = '\0';
 	return (dest);
@@ -21,11 +22,11 @@ char	*joinme(char *s1, char *s2)
 
 int	main(int argc, char **argv)
 {
-	int	i;
-	int	j;
+	int		i;
+	int		j;
 	char	*dest;
 
-	if (argc ==3)
+	if (argc == 3)
 	{
 		dest = joinme(argv[1], argv[2]);
 		i = 0;
