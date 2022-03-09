@@ -5,7 +5,7 @@ char	*get_next_line(int fd)
 	char	stock[10000];
 	char	buf[1];
 	char	*line;
-	int	i;
+	int		i;
 
 	if (fd < 0 || BUFFER_SIZE <= 0)
 		return (NULL);
@@ -31,4 +31,3 @@ char	*get_next_line(int fd)
 		return (NULL);
 	return (line);
 }
-
