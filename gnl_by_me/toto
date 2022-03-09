@@ -1,0 +1,16 @@
+Salut les p'tits potes.
+Comment allez vous ?
+Bien, et toi ?
+Super !
+
+
+Lire le FD tant que pas de \n ou eof.
+Recuperer du 1er char jusqu'au \n.
+Stocker le supplement de char dans la static.
+Renvoie le *2*.
+
+Verifier si en debut d'appel, il y a deja un \n dans la static, si oui travailler avec la static et ne pas read sinon relire.
+Une fois la recuperation faite, supprimer ce qui a ete renvoyer avant de le renvoyer.
+
+Verifier si read renvoie 0 ou -1 si c'est = 0, return la ligne lue (ou static) sinon ne pas lire et return (-1).
+Si static contient deja tout le ficher, return 0 quand static = null.
