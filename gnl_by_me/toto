@@ -1,16 +1,26 @@
-Salut les p'tits potes.
-Comment allez vous ?
-Bien, et toi ?
-Super !
+La Cigale, ayant chanté
+Tout l'Été,
+Se trouva fort dépourvue
+Quand la bise fut venue.
+Pas un seul petit morceau
+De mouche ou de vermisseau.
+
+Elle alla crier famine
+Chez la Fourmi sa voisine,
+La priant de lui prêter
+Quelque grain pour subsister
+Jusqu'à la saison nouvelle.
+Je vous paierai, lui dit-elle,
+Avant l'Oût, foi d'animal,
+Intérêt et principal.
 
 
-Lire le FD tant que pas de \n ou eof.
-Recuperer du 1er char jusqu'au \n.
-Stocker le supplement de char dans la static.
-Renvoie le *2*.
+La Fourmi n'est pas prêteuse ;
+C'est là son moindre défaut.
+« Que faisiez-vous au temps chaud ?
+Dit-elle à cette emprunteuse.
+— Nuit et jour à tout venant
+Je chantais, ne vous déplaise.
+— Vous chantiez ? j'en suis fort aise.
+Eh bien !dansez maintenant. »
 
-Verifier si en debut d'appel, il y a deja un \n dans la static, si oui travailler avec la static et ne pas read sinon relire.
-Une fois la recuperation faite, supprimer ce qui a ete renvoyer avant de le renvoyer.
-
-Verifier si read renvoie 0 ou -1 si c'est = 0, return la ligne lue (ou static) sinon ne pas lire et return (-1).
-Si static contient deja tout le ficher, return 0 quand static = null.
