@@ -5,6 +5,6 @@
 # include <stdlib.h>
 # define BUFFER_SIZE 1
 
-char	*get_next_line(int fd)
+char	*get_next_line(int fd);
 
 #endif
