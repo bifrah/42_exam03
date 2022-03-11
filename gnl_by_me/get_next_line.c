@@ -19,7 +19,9 @@ char	*get_next_line(int fd)
 			break ;
 		i++;
 	}
-	line = malloc(sizeof(char) * (i + 1));
+	if (stock[0] == '\0')
+		return (NULL);
+	line = malloc(i + 2);
 	i = 0;
 	while (stock[i])
 	{
@@ -27,7 +29,5 @@ char	*get_next_line(int fd)
 		i++;
 	}
 	line[i] = '\0';
-	if (line[0] == '\0')
-		return (NULL);
 	return (line);
 }
