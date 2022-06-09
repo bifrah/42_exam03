@@ -61,8 +61,8 @@ int	ft_hexa(int n)
 {
 	long long	conv = 4294967296;
 	long long	nb = n;
-	int		count = 1;
-	
+	int			count = 1;
+
 	if (nb < 0)
 	{
 		nb *= -1;
@@ -81,7 +81,7 @@ unsigned int	parser(const char *format, int i, va_list parameters)
 {
 	char			*s;
 	long			nb;
-	unsigned int	 x;
+	unsigned int	x;
 	int				count = 0;
 
 	if (format[i] == 's')
@@ -125,4 +125,3 @@ int	ft_printf(const char *format, ...)
 	va_end(parameters);
 	return (count + i - (2 * percent));
 }
-
